@@ -180,17 +180,6 @@
         </executions>
       </plugin>
       <plugin>
-        <groupId>org.codehaus.plexus</groupId>
-        <artifactId>plexus-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <goals>
-              <goal>descriptor</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
         <artifactId>maven-invoker-plugin</artifactId>
         <configuration>
           <cloneProjectsTo>${project.build.directory}/it</cloneProjectsTo>
